@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = 'Font-Awesome-Swift4.2'
+  s.name = 'Font-Awesome-Swift'
   s.version = '1.9.0'
   s.license = 'MIT'
   s.summary = 'Font Awesome swift library for iOS.'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.authors = { "Patrik Vaberer" => "patrik.vaberer@gmail.com", "Brent Michalski" => "Brent.Michalski@gmail.com" }
   s.source = { :git => 'https://github.com/perlguy99/Font-Awesome-Swift.git', :tag => s.version }
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '11.0'
   s.source_files   = 'Source/FAIcon.swift'
   s.resource_bundle = { 'Font-Awesome-Swift' => 'Source/FontAwesome.ttf' }
   s.frameworks = 'UIKit', 'CoreText'
