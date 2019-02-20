@@ -3,7 +3,6 @@ Pod::Spec.new do |s|
   s.version = '1.9.0'
   s.license = 'MIT'
   s.summary = 'Font Awesome swift library for iOS.'
-  s.homepage = 'https://github.com/Vaberer/Font-Awesome-Swift'
   s.homepage = 'https://github.com/perlguy99/Font-Awesome-Swift'
   s.screenshots = "https://raw.githubusercontent.com/perlguy99/Font-Awesome-Swift/master/resources/image1.png"
   s.social_media_url   = "http://twitter.com/perlguy2"
